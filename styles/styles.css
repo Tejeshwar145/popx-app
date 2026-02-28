@@ -1,0 +1,297 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial;
+}
+
+.container {
+
+  width: 350px;
+  margin: 60px auto;
+  background: white;
+  padding: 20px;
+
+}
+
+input {
+
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+
+}
+
+
+.profileBox {
+
+  display: flex;
+  gap: 10px;
+
+}
+
+.profileBox img {
+
+  width: 60px;
+  border-radius: 50%;
+
+}
+
+.container {
+
+  width: 380px;
+  min-height: 600px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 16px;
+
+  box-shadow: var(--shadow);
+
+}
+
+/* Heading */
+
+h1, h2 {
+
+  color: var(--text-main);
+
+  margin-bottom: 10px;
+
+}
+
+/* Text */
+
+p {
+
+  color: var(--text-light);
+
+  margin-bottom: 25px;
+
+}
+
+input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 16px;
+
+  border-radius: 8px;
+
+  border: 1px solid var(--border);
+
+  font-size: 14px;
+
+  transition: 0.2s;
+
+}
+
+input:focus {
+
+  outline: none;
+
+  border-color: var(--primary);
+
+  box-shadow: 0 0 0 3px rgba(108,37,255,0.1);
+
+}
+
+.profileBox {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 15px;
+
+  background: #FAFAFA;
+
+  border-radius: 10px;
+
+  margin-top: 15px;
+
+}
+
+.profileBox img {
+
+  width: 60px;
+
+  height: 60px;
+
+  border-radius: 50%;
+
+}
+
+.profileBox h3 {
+
+  margin-bottom: 4px;
+
+}
+
+/* Base button */
+
+button {
+
+  width: 100%;
+  padding: 14px;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Primary button */
+
+.primaryBtn {
+
+  background:
+    linear-gradient(
+      135deg,
+      #6C25FF,
+      #9A6BFF
+    );
+
+  color: white;
+
+  box-shadow:
+    0 4px 12px rgba(108,37,255,0.35);
+
+}
+
+/* Primary hover */
+
+.primaryBtn:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(108,37,255,0.45);
+
+}
+
+/* Primary click */
+
+.primaryBtn:active {
+
+  transform: scale(0.98);
+
+}
+
+/* Secondary button */
+
+.secondaryBtn {
+
+  background: white;
+
+  color: #6C25FF;
+
+  border: 2px solid #6C25FF;
+
+  margin-top: 12px;
+
+}
+
+/* Secondary hover */
+
+.secondaryBtn:hover {
+
+  background: #6C25FF;
+
+  color: white;
+
+}
+
+/* Focus accessibility */
+
+button:focus {
+
+  outline: none;
+
+  box-shadow:
+    0 0 0 4px rgba(108,37,255,0.25);
+
+}
+
+/* Disabled state */
+
+button:disabled {
+
+  background: #ccc;
+
+  cursor: not-allowed;
+
+  box-shadow: none;
+
+}
+
+.radioGroup {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.radioTitle {
+
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.required {
+
+  color: red;
+
+}
+
+.radioOptions {
+
+  display: flex;
+  gap: 30px;
+
+}
+
+.radioLabel {
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+}
+
+.radioLabel input {
+
+  width: 18px;
+  height: 18px;
+
+  accent-color: #6C25FF;
+
+  cursor: pointer;
+
+}
+
+.radioLabel input:hover {
+
+  transform: scale(1.1);
+
+}

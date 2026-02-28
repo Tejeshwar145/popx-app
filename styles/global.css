@@ -1,0 +1,48 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color variables */
+:root {
+
+  --primary: #6C25FF;
+  --primary-light: #8F5BFF;
+
+  --secondary: #F7F8F9;
+
+  --text-main: #1D1D1D;
+  --text-light: #666;
+
+  --border: #E0E0E0;
+
+  --shadow:
+    0 4px 20px rgba(0,0,0,0.08);
+
+}
+
+/* Body styling */
+body {
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+
+  background: var(--secondary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
